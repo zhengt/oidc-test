@@ -1,0 +1,32 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20181210154210
+Username: MIA-CL1\Admin
+RunAs User: MIA-CL1\Admin
+Configuration Name: 
+Machine: MIA-CL1 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 6248
+PSVersion: 5.1.16299.15
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.15
+BuildVersion: 10.0.16299.15
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is F:\Logs\Remove-20533EEnvironment-1.log
+Deleting 20533E0101-LabRG resource group...
+True
+Deleting 20533E0102-LabRG resource group...
+True
+Started at 12/10/2018 15:41:07
+Ended at 12/10/2018 15:44:43
+
+Total elapsed time is 3 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20181210154443
+**********************
