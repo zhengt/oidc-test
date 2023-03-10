@@ -5,6 +5,10 @@ on:
     branches:
     - '*'
 
+permissions:
+  contents: 'read'
+  id-token: 'write'
+
 jobs:
   auth:
 
@@ -20,3 +24,7 @@ jobs:
           fetch-depth: 1
       - name: Dump env
         run: env
+
+  call-azure:
+    uses: td-workshop-fz/reusable-workflows/blob/main/.github/workflows/create_infra.yml@main
+  
